@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-uniquifier{
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body{
+    background-image: url(../assets/bg.png);
+    margin: 50px;
+    margin-top: 0px;
+}
+.display-flex{
+    display: flex;
+}
+.regular{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+.logo{ display: flex;}
+nav ul li{
+    list-style: none;
+    
+    
+}
+nav ul a{
+    text-decoration: none;
+   
+
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    
+    
+}
+nav img{
+    width: 62px;
+    height: 62px;
+}
+.school{
+    font-size: 25px;
+    font-weight: bold;
+}
+.home{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.about{
+    color: skyblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.faci{
+    color: #05D4DF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.add{
+    color:#5D58EF;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid orange;
+    margin:0%;
+    border: none;
+}
+.btn-primary{
+    color: white;
+    font-weight: 600;
+    background-color: orange;
+    width: 130px;
+    height: 55px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    
+
+}
+.icon{
+    display: none;
+}
+
+
+.empower{
+    color: orange;
+    margin-right: 50px;
+}
+.towerds{
+color: skyblue;
+}
+.banner-title{
+    line-height: 61px;
+    width: 600px;
+    height: 183px;
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-discription{
+
+    width: 600px;
+    height: 50px;
+}
+
+.banner-btn{
+    color: white;
+    font-weight: 600;
+    background-color: black;
+    width: 130px;
+    height: 55px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+}
+.banner-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.banner-img{
+    width: 468px;
+    height: 575;
+}
+.banner{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.dis-title{
+     justify-items: center;
+     margin: 80px;
+}
+.bg-card-1{
+    background-image: linear-gradient(#DEF5FF 0%, white 40%);
+ 
+    width: 374px;
+    height: 470px;
+    border: 1px solid #DEF5FF ;
+    border-radius: 18.5px;
+}
+.card-img{
+    margin-top: 52px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.card-discription{
+    font-size: 16px;
+    font-weight: medium;
+    
+    height: 74px;
+    line-height: 28px;
+
+}
+.btn-kilder{
+    color: #64C8FF;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 25px;
+
+}
+.card{
+    
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+
+}
+
+
+.bg-card-2{
+    background-image: linear-gradient(#FFF4DC 0%, white 40%);
+ 
+    width: 374px;
+    height: 470px;
+    border: 1px solid #FFF4DC ;
+    border-radius: 18.5px;
+}
+.btn-elementary{
+    color: #F0AA00;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 25px;
+}
+.bg-card-3{
+    background-image: linear-gradient(#EEE1FF 0%, white 40%);
+ 
+    width: 374px;
+    height: 470px;
+    border: 1px solid #EEE1FF ;
+    border-radius: 18.5px;
+}
+.btn-middle{
+    color: #8700FF;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 18px;
+    padding: 25px;
+}
+
+.dis-card{ display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+margin-top: 80px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .btn-primary{
+        display: block;
+    }
+    
+}
